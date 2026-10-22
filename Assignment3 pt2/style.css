@@ -9,6 +9,8 @@ body {
   padding: 0 20px;
   min-width: 980px;
   max-width: 1400px;
+  line-height: 1.5;
+  
 }
 
 /* Layout */
@@ -44,10 +46,45 @@ header h1{
     font-family: 'Eagle Lake', serif;
     font-weight:400;
     margin: 10px 0;
+    text-align: center;
+    letter-spacing: normal;
 }
 
 h2{
     font-family: 'Eagle Lake', serif;
     font-weight: 300;
     margin: 10px 0;
+    letter-spacing: normal;
+}
+
+section{
+  text-indent: 2rem;
+}
+
+/* link section */
+section a, aside a{
+ color: #aa6666; 
+ background-image: url('../link-icon.png');
+ background-size: 16px 16px;
+ background-repeat: no-repeat;
+ background-position: left center;
+ padding-left: 18px;
+}
+
+nav a{
+  color: #aa6666;
+}
+
+a:hover{
+  color: #a85252;
+  text-decoration: none;
+
+}
+
+a:focus:not(:focus-visible){
+  outline: none;
+}
+/* navigation section */
+nav{
+
 }
