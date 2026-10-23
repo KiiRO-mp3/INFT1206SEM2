@@ -44,7 +44,7 @@ footer p {
 
 header h1{
     font-family: 'Eagle Lake', serif;
-    font-weight:400;
+    font-weight:bold;
     margin: 10px 0;
     text-align: center;
     letter-spacing: normal;
@@ -52,7 +52,7 @@ header h1{
 
 h2{
     font-family: 'Eagle Lake', serif;
-    font-weight: 300;
+    font-weight: bold;
     margin: 10px 0;
     letter-spacing: normal;
 }
@@ -76,7 +76,7 @@ nav a{
 }
 
 a:hover{
-  color: #a85252;
+  color: #a12727;
   text-decoration: none;
 
 }
@@ -85,6 +85,27 @@ a:focus:not(:focus-visible){
   outline: none;
 }
 /* navigation section */
-nav{
 
+
+nav li{
+list-style-type: none;
+margin-bottom: 1rem;
+}
+
+nav ul{
+  padding-left: 0;
+}
+
+nav li a{
+  font-family: 'Eagle Lake', serif;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid;
+  width: 100%;
+  line-height: 3.5;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  font-weight:bold ;
 }
