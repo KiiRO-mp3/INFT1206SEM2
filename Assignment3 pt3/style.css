@@ -53,3 +53,19 @@ nav a {
 .feature {
   width: 200px;
 }
+
+/* Navigation section */
+nav ul{
+  display: flex; 
+  gap: 20px;
+  letter-spacing: 1px;
+  list-style-type: none;
+  padding:0;
+  margin:0; 
+  justify-content: space-evenly;
+}
+
+nav ul li a{
+ text-decoration: none;
+ color: aliceblue;
+}
