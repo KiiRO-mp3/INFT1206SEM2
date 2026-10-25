@@ -11,8 +11,14 @@ body {
 
 img {
   max-width: 100%;
-  display: block;
   border: 1px solid black;
+}
+
+.feature{
+  width: 200px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 .logo {
@@ -68,4 +74,41 @@ nav ul{
 nav ul li a{
  text-decoration: none;
  color: aliceblue;
+}
+
+/* photography section */
+.grid{
+  margin: 0 auto;
+  max-width: 980px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+
+
+.photos{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.photos li{
+  width: calc(50% - 5px);
+}
+
+.feature{
+width: 200px;
+float: left;
+margin-right: 20px;
+margin-bottom: 10px;
+}
+
+img{
+  max-width: 100%;
+  border: 1px solid black;
 }
